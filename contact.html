@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kontak - Mukayyaf Service</title>
+    <meta name="description" content="Hubungi Mukayyaf Service untuk layanan AC, kulkas, dan showcase. Telepon, WhatsApp, email, atau kunjungi lokasi kami di Tangerang Selatan.">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -59,7 +60,7 @@
                         <h3>Telepon & WhatsApp</h3>
                         <p>Hubungi kami untuk konsultasi gratis dan booking service</p>
                         <div class="contact-details">
-                            <a href="tel:+6285210713678">+62 812-3456-7890</a>
+                            <a href="tel:+6285210713678">+62 852-1071-3678</a>
                             <a href="https://wa.me/6285210713678" target="_blank" class="whatsapp-link">
                                 💬 Chat WhatsApp
                             </a>
@@ -123,7 +124,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="contact-phone">Nomor WhatsApp *</label>
-                                <input type="tel" id="contact-phone" name="phone" required placeholder="085210713678">
+                                <input type="tel" id="contact-phone" name="phone" required placeholder="085210713678" pattern="[0-9]{10,13}" title="Masukkan nomor WhatsApp yang valid (10-13 digit)">
                             </div>
                         </div>
 
@@ -156,194 +157,222 @@
                 </div>
             </div>
 
-            <!-- Map Section -->
-            <div class="map-section">
-                <h2>Area Layanan Kami</h2>
-                <p>Kami melayani service AC, kulkas, dan showcase di daerah berikut:</p>
-                
-                <div class="map-container">
-                    <!-- Simple SVG Map atau Google Maps Embed -->
-                    <div class="simple-map">
-                        <div class="map-placeholder">
-                            <div class="map-point" style="top: 30%; left: 40%;">
-                                <div class="point-pulse"></div>
-                                <div class="point-label">BSD City</div>
-                            </div>
-                            <div class="map-point" style="top: 45%; left: 35%;">
-                                <div class="point-pulse"></div>
-                                <div class="point-label">Serpong</div>
-                            </div>
-                            <div class="map-point" style="top: 25%; left: 45%;">
-                                <div class="point-pulse"></div>
-                                <div class="point-label">Alam Sutera</div>
-                            </div>
-                            <div class="map-point" style="top: 40%; left: 50%;">
-                                <div class="point-pulse"></div>
-                                <div class="point-label">Gading Serpong</div>
-                            </div>
-                            <div class="service-area">Area Layanan</div>
-                        </div>
-                    </div>
-
-                    <div class="area-list">
-                        <h3>Daerah yang Dilayani:</h3>
-                        <div class="area-grid">
-                            <div class="area-group">
-                                <h4>📌 Zona Utama</h4>
-                                <ul>
-                                    <li>BSD City</li>
-                                    <li>Serpong</li>
-                                    <li>Alam Sutera</li>
-                                    <li>Gading Serpong</li>
-                                </ul>
-                            </div>
-                            <div class="area-group">
-                                <h4>📌 Zona Sekunder</h4>
-                                <ul>
-                                    <li>Karawaci</li>
-                                    <li>Cisauk</li>
-                                    <li>Pagedangan</li>
-                                    <li>Kelapa Dua</li>
-                                </ul>
-                            </div>
-                            <div class="area-group">
-                                <h4>📌 Zona Tambahan</h4>
-                                <ul>
-                                    <li>Parung</li>
-                                    <li>Ciputat</li>
-                                    <li>Pamulang</li>
-                                    <li>Bintaro</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-<!-- Footer -->
-<footer class="footer">
-    <div class="container">
-        <div class="footer-content">
-            <!-- Company Info -->
-            <div class="footer-section">
-                <div class="footer-logo">
-                    <h3>Mukayyaf Service</h3>
-                    <span>AC & Kulkas Specialist</span>
-                </div>
-                <p class="footer-description">
-                    Layanan service profesional untuk AC, kulkas, dan showcase. 
-                    Teknisi berpengalaman, bergaransi, dan harga terjangkau.
-                </p>
-                <div class="footer-contact">
-                    <div class="contact-item">
-                        <span class="contact-icon">📱</span>
-                        <span>+62 852-1071-3678</span>
-                    </div>
-                    <div class="contact-item">
-                        <span class="contact-icon">✉️</span>
-                        <span>service@coolservice.com</span>
-                    </div>
-                    <div class="contact-item">
-                        <span class="contact-icon">📍</span>
-                        <span>Tangerang Selatan, BSD & Sekitarnya</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Quick Links -->
-            <div class="footer-section">
-                <h4 class="footer-title">Menu Cepat</h4>
-                <ul class="footer-links">
-                    <li><a href="index.html">Beranda</a></li>
-                    <li><a href="index.html#services">Layanan</a></li>
-                    <li><a href="index.html#gallery">Galeri</a></li>
-                    <li><a href="index.html#faq">FAQ</a></li>
-                    <li><a href="booking.html">Booking Service</a></li>
-                    <li><a href="contact.html">Kontak</a></li>
-                </ul>
-            </div>
-
-            <!-- Services -->
-            <div class="footer-section">
-                <h4 class="footer-title">Layanan Kami</h4>
-                <ul class="footer-links">
-                    <li><a href="index.html#service-ac">Service AC</a></li>
-                    <li><a href="index.html#service-kulkas">Service Kulkas</a></li>
-                    <li><a href="index.html#service-showcase">Service Showcase</a></li>
-                    <li><a href="index.html#services">Cuci AC</a></li>
-                    <li><a href="index.html#services">Isi Freon</a></li>
-                    <li><a href="index.html#services">Perbaikan Kompresor</a></li>
-                </ul>
-            </div>
-
-            <!-- Business Hours -->
-            <div class="footer-section">
-                <h4 class="footer-title">Jam Operasional</h4>
-                <div class="business-hours">
-                    <div class="hour-item">
-                        <span>Senin - Jumat</span>
-                        <span>08:00 - 17:00</span>
-                    </div>
-                    <div class="hour-item">
-                        <span>Sabtu</span>
-                        <span>08:00 - 15:00</span>
-                    </div>
-                    <div class="hour-item">
-                        <span>Minggu</span>
-                        <span>Emergency Only</span>
-                    </div>
-                </div>
-                <div class="emergency-info">
-                    <span class="emergency-badge">🚨 Layanan Darurat 24/7</span>
-                    <p>Service emergency tersedia untuk kondisi darurat</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Footer Bottom -->
-        <div class="footer-bottom">
-            <div class="footer-copyright">
-                <p>&copy; 2024 CoolService. All rights reserved.</p>
-            </div>
-            <div class="footer-credits">
-                <p>Professional AC & Refrigerator Services</p>
-            </div>
-        </div>
-    </div>
-</footer>
-
-<!-- Floating WhatsApp -->
-<div id="whatsapp-float" class="whatsapp-float">
-    <a href="https://wa.me/6285210713678?text=Halo,%20saya%20butuh%20service%20AC/Kulkas%20untuk..." 
-       class="whatsapp-link" 
-       target="_blank"
-       aria-label="Chat via WhatsApp">
-        <div class="whatsapp-icon">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893c0-3.189-1.248-6.189-3.515-8.447"/>
-            </svg>
-        </div>
-        <span class="whatsapp-text">Hubungi Kami</span>
-    </a>
+<!-- Map Section -->
+<div class="map-section">
+    <h2>Lokasi & Area Layanan</h2>
+    <p>Kantor operasional kami berlokasi di Panongan, melayani Tangerang Selatan dan sekitarnya</p>
     
-    <!-- WhatsApp Options -->
-    <div class="whatsapp-options">
-        <a href="https://wa.me/6285210713678?text=Halo,%20saya%20butuh%20service%20AC" 
-           class="whatsapp-option" target="_blank">
-            ❄️ Service AC
-        </a>
-        <a href="https://wa.me/6285210713678?text=Halo,%20saya%20butuh%20service%20Kulkas" 
-           class="whatsapp-option" target="_blank">
-            🧊 Service Kulkas
-        </a>
-        <a href="https://wa.me/6285210713678?text=Halo,%20saya%20butuh%20service%20Showcase" 
-           class="whatsapp-option" target="_blank">
-            🪟 Service Showcase
-        </a>
+    <div class="map-container">
+        <!-- Google Maps Embed dengan lokasi tepat -->
+        <div class="google-map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.722221308697!2d106.53733807496728!3d-6.251745999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ff3d6c99f36f%3A0xfca6e4f18e6c866c!2sJl.%20Al-Ikhlash%2C%20Ciakar%2C%20Kec.%20Panongan%2C%20Kabupaten%20Tangerang%2C%20Banten%2015710!5e0!3m2!1sid!2sid!4v1702800000000!5m2!1sid!2sid"
+                width="100%" 
+                height="400" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Lokasi Mukayyaf Service di Jl. Al-Ikhlash, Panongan"
+                aria-label="Peta lokasi Mukayyaf Service">
+            </iframe>
+            
+            <!-- Map Overlay Info -->
+            <div class="map-overlay">
+                <div class="map-info-card">
+                    <h4>📍 Lokasi Kami</h4>
+                    <p><strong>Mukayyaf Service</strong></p>
+                    <p>Jl. Al-Ikhlash, Ciakar</p>
+                    <p>Kec. Panongan, Tangerang</p>
+                    <p>Banten 15710</p>
+                    <a href="https://maps.google.com/maps?q=Jl.+Al-Ikhlash,+Ciakar,+Panongan,+Tangerang&hl=id" 
+                       class="btn btn-small" 
+                       target="_blank">
+                        🗺️ Buka di Google Maps
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Area List -->
+        <div class="area-list">
+            <h3>📋 Area Layanan Kami</h3>
+            <p class="area-subtitle">Kami melayani service di daerah berikut:</p>
+            
+            <div class="area-grid">
+                <div class="area-group">
+                    <h4>📍 Zona Inti (Gratis Survey)</h4>
+                    <ul>
+                        <li><strong>Panongan</strong> & Sekitarnya</li>
+                        <li>Curug & Pasar Kemis</li>
+                        <li>Teluk Naga</li>
+                        <li>Kosambi</li>
+                    </ul>
+                </div>
+                
+                <div class="area-group">
+                    <h4>📍 Zona Tangerang Selatan</h4>
+                    <ul>
+                        <li>BSD City</li>
+                        <li>Serpong</li>
+                        <li>Alam Sutera</li>
+                        <li>Ciputat & Pamulang</li>
+                    </ul>
+                </div>
+                
+                <div class="area-group">
+                    <h4>📍 Zona Lainnya*</h4>
+                    <ul>
+                        <li>Karawaci & Gading Serpong</li>
+                        <li>Cikokol & Ciledug</li>
+                        <li>Bintaro & Pondok Aren</li>
+                        <li>Luar kota**</li>
+                    </ul>
+                    <p class="area-note"><small>* Tambahan biaya transport<br>** Konfirmasi via WhatsApp</small></p>
+                </div>
+            </div>
+            
+            <div class="transport-info">
+                <h4>🚗 Informasi Transport</h4>
+                <div class="transport-details">
+                    <div class="transport-item">
+                        <span>🆓 <strong>Zona Inti:</strong> Gratis transport</span>
+                    </div>
+                    <div class="transport-item">
+                        <span>💰 <strong>Zona TS:</strong> Rp 20.000 - 50.000</span>
+                    </div>
+                    <div class="transport-item">
+                        <span>📞 <strong>Luar kota:</strong> Survey dulu</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Company Info -->
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <h3>Mukayyaf Service</h3>
+                        <span>AC & Kulkas Specialist</span>
+                    </div>
+                    <p class="footer-description">
+                        Layanan service profesional untuk AC, kulkas, dan showcase. 
+                        Teknisi berpengalaman, bergaransi, dan harga terjangkau.
+                    </p>
+                    <div class="footer-contact">
+                        <div class="contact-item">
+                            <span class="contact-icon">📱</span>
+                            <span>+62 852-1071-3678</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">✉️</span>
+                            <span>service@coolservice.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <span>Tangerang Selatan, BSD & Sekitarnya</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-section">
+                    <h4 class="footer-title">Menu Cepat</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="index.html#services">Layanan</a></li>
+                        <li><a href="index.html#gallery">Galeri</a></li>
+                        <li><a href="index.html#faq">FAQ</a></li>
+                        <li><a href="booking.html">Booking Service</a></li>
+                        <li><a href="contact.html">Kontak</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div class="footer-section">
+                    <h4 class="footer-title">Layanan Kami</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html#service-ac">Service AC</a></li>
+                        <li><a href="index.html#service-kulkas">Service Kulkas</a></li>
+                        <li><a href="index.html#service-showcase">Service Showcase</a></li>
+                        <li><a href="index.html#services">Cuci AC</a></li>
+                        <li><a href="index.html#services">Isi Freon</a></li>
+                        <li><a href="index.html#services">Perbaikan Kompresor</a></li>
+                    </ul>
+                </div>
+
+                <!-- Business Hours -->
+                <div class="footer-section">
+                    <h4 class="footer-title">Jam Operasional</h4>
+                    <div class="business-hours">
+                        <div class="hour-item">
+                            <span>Senin - Jumat</span>
+                            <span>08:00 - 17:00</span>
+                        </div>
+                        <div class="hour-item">
+                            <span>Sabtu</span>
+                            <span>08:00 - 15:00</span>
+                        </div>
+                        <div class="hour-item">
+                            <span>Minggu</span>
+                            <span>Emergency Only</span>
+                        </div>
+                    </div>
+                    <div class="emergency-info">
+                        <span class="emergency-badge">🚨 Layanan Darurat 24/7</span>
+                        <p>Service emergency tersedia untuk kondisi darurat</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p>&copy; 2024 Mukayyaf Service. All rights reserved.</p>
+                </div>
+                <div class="footer-credits">
+                    <p>Professional AC & Refrigerator Services</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp -->
+    <div id="whatsapp-float" class="whatsapp-float">
+        <a href="https://wa.me/6285210713678?text=Halo,%20saya%20butuh%20service%20AC/Kulkas%20untuk..." 
+           class="whatsapp-link" 
+           target="_blank"
+           aria-label="Chat via WhatsApp">
+            <div class="whatsapp-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893c0-3.189-1.248-6.189-3.515-8.447"/>
+                </svg>
+            </div>
+            <span class="whatsapp-text">Hubungi Kami</span>
+        </a>
+        
+        <!-- WhatsApp Options -->
+        <div class="whatsapp-options">
+            <a href="https://wa.me/6285210713678?text=Halo,%20saya%20butuh%20service%20AC" 
+               class="whatsapp-option" target="_blank">
+                ❄️ Service AC
+            </a>
+            <a href="https://wa.me/6285210713678?text=Halo,%20saya%20butuh%20service%20Kulkas" 
+               class="whatsapp-option" target="_blank">
+                🧊 Service Kulkas
+            </a>
+            <a href="https://wa.me/6285210713678?text=Halo,%20saya%20butuh%20service%20Showcase" 
+               class="whatsapp-option" target="_blank">
+                🪟 Service Showcase
+            </a>
+        </div>
+    </div>
 
     <script src="assets/js/script.js"></script>
     <script src="assets/js/contact.js"></script>
